@@ -20,7 +20,7 @@ def transform_data(data):
     return new_data
 
 def load_data(data):
-    db_url = "postgresql+psycopg2://risshikaa:masters123@database:5432/shelter"
+    db_url = "postgresql+psycopg2://akitha:ubuntu2436@database:5432/shelter"
     conn = create_engine(db_url)
     
     dim_animal = data[['animal_id','name','date_of_birth','animal_type','breed','color']]
